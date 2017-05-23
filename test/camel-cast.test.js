@@ -25,5 +25,3 @@ test('camelCase -- camelCase a snake_case string with multiple underscores', fun
 
   t.end()
 })
-
-
