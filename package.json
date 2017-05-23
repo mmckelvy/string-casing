@@ -1,0 +1,20 @@
+{
+  "name": "casing",
+  "version": "1.0.0",
+  "description": "Utilities to change string casing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "snake case",
+    "camel case",
+    "casing",
+    "proper case"
+  ],
+  "author": "Mark McKelvy",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
