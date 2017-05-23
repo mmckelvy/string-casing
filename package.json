@@ -4,7 +4,7 @@
   "description": "Utilities to change string casing.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "tape test/*"
   },
   "keywords": [
     "snake case",
