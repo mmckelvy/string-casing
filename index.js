@@ -1,4 +1,4 @@
 module.exports = {
-  snakeCase = require('./snake-case'),
-  camelCase = require('./camel-case'),
+  snakeCase = require('./lib/snake-case'),
+  camelCase = require('./lib/camel-case'),
 }
