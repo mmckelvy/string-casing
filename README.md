@@ -9,7 +9,7 @@ Utility functions for dealing with common string casing needs.
 
 param: `{string} str` - A string that is currently snake cased (e.g. `hello_world`).
 
-returns `{string}` - A camel cased string (e.g. `helloWorld`)
+returns `{string}` - A camel cased string (e.g. `helloWorld`).
 
 #### `snakeCase(str)`
 

@@ -1,5 +1,5 @@
 {
-  "name": "casing",
+  "name": "string-casing",
   "version": "1.0.0",
   "description": "Utilities to change string casing.",
   "main": "index.js",
@@ -10,7 +10,6 @@
     "snake case",
     "camel case",
     "casing",
-    "proper case"
   ],
   "author": "Mark McKelvy",
   "license": "MIT",
