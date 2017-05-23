@@ -6,6 +6,10 @@
   "scripts": {
     "test": "tape test/*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mmckelvy/string-casing.git"
+  },
   "keywords": [
     "snake case",
     "camel case",
