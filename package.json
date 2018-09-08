@@ -1,6 +1,6 @@
 {
   "name": "string-casing",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Utilities to change string casing.",
   "main": "index.js",
   "scripts": {
