@@ -2,28 +2,26 @@ const test = require('tape')
 
 const properCase = require('../lib/proper-case')
 
-test('properCase -- Proper case a camelCased string', function(t) {
-  const str = 'helloWorld'
+test('properCase -- Proper case all caps', function(t) {
+  const str = 'HELLO WORLD'
 
   t.equal(
     properCase(str),
-    'Hello world',
+    'Hello World',
     'Should return a proper case string'
   )
 
   t.end()
 })
 
-test('properCase -- Proper case a string with multiple camels', function(t) {
-  const str = 'appleOrangePearBanana'
+test('properCase -- Proper case all lower', function(t) {
+  const str = 'hello world'
 
   t.equal(
     properCase(str),
-    'Apple orange pear banana',
+    'Hello World',
     'Should return a proper case string'
   )
 
   t.end()
 })
-
-
