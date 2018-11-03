@@ -25,3 +25,15 @@ test('camelCase -- camelCase a snake_case string with multiple underscores', fun
 
   t.end()
 })
+
+test('camelCase -- Should leave already camelCased alone', function(t) {
+  const snake = 'appleOrangePearBanana'
+
+  t.equal(
+    camelCase(snake),
+    'appleOrangePearBanana',
+    'Should return a camelCase string'
+  )
+
+  t.end()
+})

@@ -49,15 +49,3 @@ test('camelCaseAll -- Should work on all three!', function(t) {
 
   t.end()
 })
-
-test('camelCaseAll -- Should handle random caps', function(t) {
-  const str = 'Apple Pear_banana-Grape'
-
-  t.equal(
-    camelCaseAll(str),
-    'applePearBananaGrape',
-    'Should return a camelCase string'
-  )
-
-  t.end()
-})
